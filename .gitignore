@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# OS
+Thumbs.db
+
+# Local artifacts (keep clean)
+*.bak
+*.tmp
+*.orig
+*.rej
+.env
+.env.local
+*.local
+
+# Python (used by validation scripts if any)
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node (used by markdown lint if any)
+node_modules/
+
+# Build outputs
+dist/
+out/
